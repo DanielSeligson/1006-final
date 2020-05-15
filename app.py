@@ -20,7 +20,7 @@ def hello():
 def homepage():
     return render_template("1006.html")
 
-@app.route("/Course")
+@app.route("/Courses")
 def courses():
     return render_template("courses.html")
 
