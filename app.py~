@@ -2,7 +2,7 @@
 """
 Created on Tue Apr 21 14:57:17 2020
 
-@author: de_se
+@author: etill
 """
 
 #import statements
@@ -19,10 +19,6 @@ def hello():
 @app.route("/1006")
 def homepage():
     return render_template("1006.html")
-
-@app.route("/Course")
-def courses():
-    return render_template("courses.html")
 
 #start the server
 if __name__ == "__main__":
